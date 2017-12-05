@@ -1,7 +1,7 @@
 {
-  "name": "system-stats-api",
-  "version": "0.0.1",
-  "description": "Starter project for an ES6 RESTful Express API",
+  "name": "deadmans-express-webpack-boiler-plate",
+  "version": "1.0.0",
+  "description": "Starter project for an ES6 RESTful Express API and ES6 Webpacked Front End",
   "main": "dist",
   "scripts": {
     "dev": "nodemon -w src --exec \"babel-node src --presets es2015,stage-0\"",
@@ -26,9 +26,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/developit/express-es6-rest-api.git"
+    "url": "git+https://github.com/TheDeadman/ExpressAndWebpack.git"
   },
-  "author": "Jason Miller <jason@developit.ca>",
+  "author": "Alex Lindemann <AlexDeadmanLindemann@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "babel-loader": "^7.1.2",
@@ -50,9 +50,9 @@
     "webpack": "^3.9.1"
   },
   "bugs": {
-    "url": "https://github.com/developit/express-es6-rest-api/issues"
+    "url": "https://github.com/TheDeadman/ExpressAndWebpack/issues"
   },
-  "homepage": "https://github.com/developit/express-es6-rest-api#readme",
+  "homepage": "https://github.com/TheDeadman/ExpressAndWebpack#readme",
   "keywords": [
     "rest",
     "api",
