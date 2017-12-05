@@ -5,5 +5,19 @@ module.exports = {
     output: {
         path: path.join(__dirname, '/front-end-transpiled/js'),
         filename: 'transpiled.js'
-    }
+    },
+    module: {
+        rules: [
+          {
+            test: /\.js$/,
+            exclude: /(node_modules|bower_components)/,
+            use: {
+              loader: 'babel-loader',
+              options: {
+                presets: ['es2015']
+              }
+            }
+          }
+        ]
+      }
 };
